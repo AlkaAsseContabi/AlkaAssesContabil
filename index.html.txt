@@ -1,0 +1,1141 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Alka Assessoria Contábil LTDA - Atividades de contabilidade e assessoria empresarial em Natal, Rio Grande do Norte.">
+
+    <title>Alka Assessoria Contábil | Natal - RN</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#inicio">
+            <span class="logo-icon">
+                <i class="bi bi-bar-chart-fill"></i>
+            </span>
+            ALKA<span class="green">.</span>
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#atividades">Atividades</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#empresa">Empresa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a href="mailto:ester@acessoriaideialempressa.online"
+                       class="btn btn-success">
+                        <i class="bi bi-envelope"></i>
+                        Fale conosco
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="inicio" class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <span class="badge-custom">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Contabilidade em Natal - RN
+                </span>
+
+                <h1>
+                    Contabilidade que transforma
+                    <span>números em decisões.</span>
+                </h1>
+
+                <p class="hero-text">
+                    A Alka Assessoria Contábil oferece suporte contábil
+                    para empresas que buscam organização, informação
+                    e segurança para administrar seus negócios.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#atividades"
+                       class="btn btn-success btn-lg">
+                        Conheça nossas atividades
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <a href="tel:+558436421148"
+                       class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-telephone"></i>
+                        (84) 3642-1148
+                    </a>
+
+                </div>
+
+                <div class="hero-info">
+
+                    <span>
+                        <i class="bi bi-calendar-check"></i>
+                        Desde 2006
+                    </span>
+
+                    <span>
+                        <i class="bi bi-shield-check"></i>
+                        Empresa Ativa
+                    </span>
+
+                    <span>
+                        <i class="bi bi-award"></i>
+                        CRC RN-000922/O
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-5">
+
+                <div class="hero-card">
+
+                    <div class="hero-card-icon">
+                        <i class="bi bi-calculator"></i>
+                    </div>
+
+                    <h3>
+                        Alka Assessoria Contábil
+                    </h3>
+
+                    <p>
+                        Organização contábil para apoiar sua empresa
+                        nas decisões do dia a dia.
+                    </p>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>2006</strong>
+                            <small>Fundação</small>
+                        </div>
+
+                        <div>
+                            <strong>69.20-6-01</strong>
+                            <small>CNAE</small>
+                        </div>
+
+                        <div>
+                            <strong>Ativa</strong>
+                            <small>Situação</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SOBRE
+===================================================== -->
+
+<section id="sobre" class="section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <span class="section-label">
+                    SOBRE A ALKA
+                </span>
+
+                <h2>
+                    Experiência e organização
+                    para cuidar da sua contabilidade.
+                </h2>
+
+                <p class="lead">
+                    A Alka Assessoria Contábil LTDA atua no segmento
+                    de atividades de contabilidade em Natal,
+                    Rio Grande do Norte.
+                </p>
+
+                <p>
+                    Fundada em 22 de novembro de 2006, a empresa possui
+                    como atividade econômica principal o CNAE
+                    <strong>69.20-6-01 - Atividades de contabilidade.</strong>
+                </p>
+
+                <p>
+                    Nosso propósito é oferecer informações contábeis
+                    organizadas que contribuam para o acompanhamento
+                    e a gestão das empresas.
+                </p>
+
+                <div class="row mt-4">
+
+                    <div class="col-sm-6 mb-3">
+
+                        <div class="small-info">
+
+                            <i class="bi bi-patch-check-fill"></i>
+
+                            <div>
+                                <strong>CRC</strong>
+                                <br>
+                                RN-000922/O
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 mb-3">
+
+                        <div class="small-info">
+
+                            <i class="bi bi-building-check"></i>
+
+                            <div>
+                                <strong>Situação</strong>
+                                <br>
+                                Ativa
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="company-box">
+
+                    <div class="company-title">
+                        <strong>Perfil empresarial</strong>
+
+                        <i class="bi bi-building"></i>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Razão Social</span>
+                        <strong>
+                            Alka Assessoria Contabil LTDA
+                        </strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Nome Fantasia</span>
+                        <strong>Alka</strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>CNPJ</span>
+                        <strong>08.454.650/0001-19</strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Porte</span>
+                        <strong>Micro Empresa</strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Tipo</span>
+                        <strong>Matriz</strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Natureza Jurídica</span>
+                        <strong>
+                            Sociedade Empresária Limitada
+                        </strong>
+                    </div>
+
+                    <div class="company-row">
+                        <span>Capital Social</span>
+                        <strong>R$ 5.000,00</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ATIVIDADES
+===================================================== -->
+
+<section id="atividades" class="section bg-light">
+
+    <div class="container">
+
+        <div class="section-header text-center">
+
+            <span class="section-label">
+                O QUE FAZEMOS
+            </span>
+
+            <h2>
+                Atividades de contabilidade
+            </h2>
+
+            <p>
+                Informações e rotinas contábeis para apoiar
+                a organização e o acompanhamento empresarial.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-journal-text"></i>
+                    </div>
+
+                    <h3>
+                        Escrituração contábil
+                    </h3>
+
+                    <p>
+                        Organização e registro das informações
+                        contábeis da empresa.
+                    </p>
+
+                    <span>CONTABILIDADE</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-file-earmark-bar-graph"></i>
+                    </div>
+
+                    <h3>
+                        Relatórios contábeis
+                    </h3>
+
+                    <p>
+                        Informações e demonstrativos para
+                        acompanhamento dos resultados.
+                    </p>
+
+                    <span>INFORMAÇÃO</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-receipt"></i>
+                    </div>
+
+                    <h3>
+                        Rotinas fiscais
+                    </h3>
+
+                    <p>
+                        Acompanhamento das rotinas relacionadas
+                        às informações e obrigações fiscais.
+                    </p>
+
+                    <span>FISCAL</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+
+                    <h3>
+                        Rotinas trabalhistas
+                    </h3>
+
+                    <p>
+                        Apoio nas rotinas relacionadas às
+                        informações trabalhistas e folha.
+                    </p>
+
+                    <span>PESSOAL</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+
+                    <h3>
+                        Apoio à gestão
+                    </h3>
+
+                    <p>
+                        Dados contábeis organizados para auxiliar
+                        o acompanhamento do negócio.
+                    </p>
+
+                    <span>GESTÃO</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-headset"></i>
+                    </div>
+
+                    <h3>
+                        Assessoria contábil
+                    </h3>
+
+                    <p>
+                        Atendimento para esclarecer dúvidas
+                        e apoiar as necessidades contábeis.
+                    </p>
+
+                    <span>ASSESSORIA</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CNAE -->
+
+        <div class="cnae">
+
+            <div class="cnae-icon">
+                <i class="bi bi-diagram-3-fill"></i>
+            </div>
+
+            <div>
+
+                <small>
+                    ATIVIDADE ECONÔMICA PRINCIPAL
+                </small>
+
+                <h4>
+                    69.20-6-01 — Atividades de contabilidade
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DIFERENCIAIS
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-5">
+
+                <span class="section-label">
+                    NOSSO PROPÓSITO
+                </span>
+
+                <h2>
+                    Mais organização para
+                    sua empresa.
+                </h2>
+
+                <p>
+                    Uma contabilidade organizada transforma dados
+                    em informações úteis para a rotina empresarial.
+                </p>
+
+                <p>
+                    A Alka busca oferecer uma estrutura de informações
+                    que facilite o acompanhamento das atividades
+                    contábeis.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <div class="row g-4">
+
+                    <div class="col-sm-6">
+
+                        <div class="feature">
+
+                            <i class="bi bi-shield-check"></i>
+
+                            <h3>
+                                Responsabilidade
+                            </h3>
+
+                            <p>
+                                Cuidado com as informações e
+                                rotinas contábeis.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-sm-6">
+
+                        <div class="feature">
+
+                            <i class="bi bi-diagram-3"></i>
+
+                            <h3>
+                                Organização
+                            </h3>
+
+                            <p>
+                                Informações estruturadas para
+                                facilitar o acompanhamento.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-sm-6">
+
+                        <div class="feature">
+
+                            <i class="bi bi-chat-dots"></i>
+
+                            <h3>
+                                Atendimento
+                            </h3>
+
+                            <p>
+                                Comunicação para esclarecer
+                                dúvidas e necessidades.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-sm-6">
+
+                        <div class="feature">
+
+                            <i class="bi bi-bar-chart-line"></i>
+
+                            <h3>
+                                Visão empresarial
+                            </h3>
+
+                            <p>
+                                Informações que apoiam o
+                                acompanhamento dos resultados.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DADOS DA EMPRESA
+===================================================== -->
+
+<section id="empresa" class="section dark-section">
+
+    <div class="container">
+
+        <div class="section-header text-center">
+
+            <span class="section-label">
+                INFORMAÇÕES CADASTRAIS
+            </span>
+
+            <h2>
+                Dados da empresa
+            </h2>
+
+            <p>
+                Informações cadastrais da Alka Assessoria Contábil.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-person-vcard"></i>
+
+                    <small>CNPJ</small>
+
+                    <strong>
+                        08.454.650/0001-19
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-calendar3"></i>
+
+                    <small>DATA DE ABERTURA</small>
+
+                    <strong>
+                        22/11/2006
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    <small>SITUAÇÃO</small>
+
+                    <strong>
+                        Ativa
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-bank"></i>
+
+                    <small>NATUREZA JURÍDICA</small>
+
+                    <strong>
+                        Sociedade Empresária Limitada
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-cash-stack"></i>
+
+                    <small>CAPITAL SOCIAL</small>
+
+                    <strong>
+                        R$ 5.000,00
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="data-card">
+
+                    <i class="bi bi-award"></i>
+
+                    <small>CRC</small>
+
+                    <strong>
+                        RN-000922/O
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SÓCIOS -->
+
+        <div class="partners">
+
+            <h3>
+                <i class="bi bi-people-fill"></i>
+                Sócios e administradores
+            </h3>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+
+                    <div class="partner">
+
+                        <div class="partner-icon">
+                            <i class="bi bi-person"></i>
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Alvaro Jean Candido da Silva
+                            </strong>
+
+                            <small>
+                                Sócio-Administrador
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="partner">
+
+                        <div class="partner-icon">
+                            <i class="bi bi-person"></i>
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Danielle Dayanna Oliveira de Medeiros Candido
+                            </strong>
+
+                            <small>
+                                Sócio
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <div>
+
+                <span class="section-label">
+                    FALE COM A ALKA
+                </span>
+
+                <h2>
+                    Sua empresa merece uma
+                    contabilidade organizada.
+                </h2>
+
+                <p>
+                    Entre em contato conosco e conheça nosso
+                    atendimento contábil.
+                </p>
+
+            </div>
+
+            <a href="mailto:ester@acessoriaideialempressa.online"
+               class="btn btn-success btn-lg">
+
+                <i class="bi bi-envelope"></i>
+
+                Enviar e-mail
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTATO
+===================================================== -->
+
+<section id="contato" class="section">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <div class="col-lg-5">
+
+                <span class="section-label">
+                    CONTATO
+                </span>
+
+                <h2>
+                    Estamos em Natal - RN.
+                </h2>
+
+                <p>
+                    Entre em contato através dos nossos telefones
+                    ou envie uma mensagem por e-mail.
+                </p>
+
+
+                <div class="contact-list">
+
+                    <a href="tel:+558436421148"
+                       class="contact">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+
+                        <div>
+
+                            <small>Telefone</small>
+
+                            <strong>
+                                (84) 3642-1148
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="tel:+558432176186"
+                       class="contact">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+
+                        <div>
+
+                            <small>Telefone</small>
+
+                            <strong>
+                                (84) 3217-6186
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="mailto:ester@acessoriaideialempressa.online"
+                       class="contact">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+
+                        <div>
+
+                            <small>E-mail</small>
+
+                            <strong>
+                                ester@acessoriaideialempressa.online
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="contact">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+
+                        <div>
+
+                            <small>Endereço</small>
+
+                            <strong>
+                                Rua Engenheiro Luciano Luiz de Barros, 3582
+                                <br>
+                                Candelaria - Natal/RN
+                                <br>
+                                CEP 59064-690
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <div class="map-box">
+
+                    <i class="bi bi-geo-alt-fill"></i>
+
+                    <h3>
+                        Alka Assessoria Contábil
+                    </h3>
+
+                    <p>
+                        Rua Engenheiro Luciano Luiz de Barros, 3582
+                        <br>
+                        Candelaria - Natal/RN
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Rua+Engenheiro+Luciano+Luiz+de+Barros%2C+3582%2C+Candelaria%2C+Natal%2C+RN"
+                        target="_blank"
+                        class="btn btn-dark">
+
+                        <i class="bi bi-map"></i>
+                        Abrir no Google Maps
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <div class="footer-logo">
+                    <span class="logo-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                    </span>
+
+                    ALKA<span class="green">.</span>
+                </div>
+
+                <p>
+                    Alka Assessoria Contábil LTDA
+                </p>
+
+            </div>
+
+
+            <div class="col-md-6 text-md-end">
+
+                <p>
+                    CNPJ: 08.454.650/0001-19
+                </p>
+
+                <p class="small">
+                    © <span id="ano"></span> Alka.
+                    Todos os direitos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<script>
+
+    document.getElementById("ano").textContent =
+        new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
+```
